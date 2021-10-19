@@ -12,4 +12,8 @@
    
    <context:component-scan base-package="com.tutorial.springbasics"></context:component-scan>
 	<!-- <bean id="vehicle" class="com.tutorial.springbasics.Bike"></bean> -->
+	
+	<bean id="tyre" class = "com.tutorial.springbasics.Tyre">
+		<property name="brand" value="MRF"></property>
+	</bean>
 </beans>
